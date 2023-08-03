@@ -12,7 +12,7 @@ void main(){
   print("Multiplication");
   print("The result of ${a}X${b} is: ${a*b}");
 
-print("Division");
+  print("Division");
   print("The result of ${a}/${b} is: ${a/b}");
 
   print("Modulus");
