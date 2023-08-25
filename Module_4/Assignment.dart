@@ -6,7 +6,7 @@ abstract class Account {
 
   void deposit(double amount) {
     balance += amount;
-    print('Deposited: \$$amount');
+    print('Deposited: $amount');
   }
 
   void withdraw(double amount);
@@ -48,12 +48,12 @@ void main() {
   print('Savings Account:');
   savings.deposit(500);
   savings.withdraw(200);
-  print('Current Balance: \$${savings.balance.toStringAsFixed(2)}');
+  print('Current Balance: ${savings.balance.toStringAsFixed(2)}');
   print('');
 
   var current = CurrentAccount(789012, 2000, 1000);
   print('Current Account:');
   current.deposit(300);
   current.withdraw(2500);
-  print('Current Balance: \$${current.balance.toStringAsFixed(2)}');
+  print('Current Balance: ${current.balance.toStringAsFixed(2)}');
 }
