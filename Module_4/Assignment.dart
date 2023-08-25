@@ -22,7 +22,7 @@ class SavingsAccount extends Account {
   void withdraw(double amount) {
     balance -= amount;
     balance += balance * interestRate;
-    print('Withdrawn: \$$amount');
+    print('Withdrawn: $amount');
   }
 }
 
@@ -36,7 +36,7 @@ class CurrentAccount extends Account {
   void withdraw(double amount) {
     if (balance - amount >= -overdraftLimit) {
       balance -= amount;
-      print('Withdrawn: \$$amount');
+      print('Withdrawn: $amount');
     } else {
       print('Insufficient funds');
     }
