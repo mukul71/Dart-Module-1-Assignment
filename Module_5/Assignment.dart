@@ -43,7 +43,7 @@ class HomeScreen extends StatelessWidget {
                     TextSpan(
                         text: ' phone',
                         style:
-                            TextStyle(color: Colors.blueAccent, fontSize: 14)),
+                        TextStyle(color: Colors.blueAccent, fontSize: 14)),
                     TextSpan(
                       text: ' name is ',
                       style: TextStyle(
