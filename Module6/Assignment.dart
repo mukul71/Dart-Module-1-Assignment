@@ -32,23 +32,23 @@ class HomeActivity extends StatelessWidget {
       body: ListView(
         children: [
           ListTile(
-            leading: Icon(Icons.shopping_bag),
+            leading: Icon(Icons.shopping_basket),
             title: Text('Apples'),
           ),
           ListTile(
-            leading: Icon(Icons.shopping_bag),
+            leading: Icon(Icons.shopping_basket),
             title: Text('Bananas'),
           ),
           ListTile(
-            leading: Icon(Icons.shopping_bag),
+            leading: Icon(Icons.shopping_basket),
             title: Text('Bread'),
           ),
           ListTile(
-            leading: Icon(Icons.shopping_bag),
+            leading: Icon(Icons.shopping_basket),
             title: Text('Milk'),
           ),
           ListTile(
-            leading: Icon(Icons.shopping_bag),
+            leading: Icon(Icons.shopping_basket),
             title: Text('Eggs'),
           ),
         ],
@@ -56,4 +56,3 @@ class HomeActivity extends StatelessWidget {
     );
   }
 }
-
